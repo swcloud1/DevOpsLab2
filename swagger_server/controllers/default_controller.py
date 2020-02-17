@@ -53,4 +53,3 @@ def get_student_by_id(student_id, subject=None):  # noqa: E501
     if res:
         return res
     return 'Not Found', 404
-
